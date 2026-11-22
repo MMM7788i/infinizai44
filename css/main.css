@@ -1,0 +1,358 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.link {
+  display: flex;
+  gap: 60px;
+  list-style-type: none;
+}
+.link a {
+  text-decoration: none;
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.left-btn {
+  margin-right: 24px;
+  width: 48;
+  height: 48;
+  opacity: 1;
+  background-color: transparent;
+  border: none;
+  border: white;
+}
+.right-btn {
+  border-color: white;
+}
+.btns button {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 16px, 31px;
+  background-color: transparent;
+  color: #ffffff;
+}
+span {
+  color: #fac422;
+}
+.home-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-all {
+  display: flex;
+  padding-top: 209px;
+}
+
+.home-left h4 {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #57b8ff;
+  max-width: 203px;
+  margin-bottom: 26px;
+}
+.home-left h1 {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 72px;
+  line-height: 86px;
+  text-transform: capitalize;
+  color: #ffffff;
+  max-width: 660px;
+  margin-bottom: 45px;
+}
+.home-left p {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 28px;
+  color: #999999;
+  max-width: 615px;
+  margin-bottom: 53px;
+}
+.home-right img {
+  width: 100%;
+}
+.btn-1 {
+  width: 203px;
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  background-color: #57b8ff;
+  border-color: white;
+  color: white;
+  margin-right: 40px;
+}
+.btn-2 {
+  width: 148px;
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 28px;
+  border: none;
+  border-color: transparent;
+  background-color: transparent;
+  color: white;
+}
+.imagess {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.sect-2 {
+  background-color: #fdd04a;
+  padding-top: 128px;
+}
+.sect-2 h1 {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222730;
+  margin-bottom: 44px;
+}
+.sect-2 p {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #555555;
+  width: 578px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 41px;
+}
+.heroo {
+  background: linear-gradient(to left, #57b8ff 50%, #000000e0 50%);
+}
+.sect-3 {
+  background-image: url("../images/background.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.gameplay {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  text-align: center;
+}
+
+.sect-3 h4 {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #57b8ff;
+  margin-bottom: 22px;
+  padding-top: 136px;
+}
+.sect-3 h1 {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 64px;
+  line-height: 74px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 39px;
+  color: #ffffff;
+  max-width: 716px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sect-3 p {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #dfdfdfcc;
+  margin-bottom: 61px;
+  max-width: 698px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.boring {
+  border-radius: 20px;
+  backdrop-filter: blur(50px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.boring h2 {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding-top: 35px;
+}
+.boring p {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 28px;
+  color: #dfdfdfcc;
+}
+.bread {
+  display: flex;
+  padding-top: 86px;
+  gap: 95px;
+}
+.gameplsy-left {
+  gap: 35px;
+}
+.bc {
+  background-color: #030303;
+}
+.sect-4-left h4 {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #57b8ff;
+  margin-bottom: 22px;
+}
+.sect-4-left h1 {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 64px;
+  line-height: 74px;
+  text-transform: capitalize;
+  color: #ffffff;
+  max-width: 684px;
+  margin-bottom: 38px;
+}
+.sect-4-left p {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: Orbitron;
+  color: #dfdfdfcc;
+  max-width: 721px;
+  margin-bottom: 54px;
+}
+.sect-4-left button {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  width: 203px;
+}
+.ifreme {
+  width: 492;
+  height: 550;
+  opacity: 1;
+}
+@media (max-width: 1600px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media (max-width: 948px) {
+  .right-btn {
+    display: none;
+  }
+  .left-btn {
+    display: none;
+  }
+}
+@media (max-width: 720px) {
+  .link {
+    display: none;
+  }
+  .menu {
+    display: inline-block;
+  }
+}
+@media (max-width: 910px) {
+  .home-all {
+    flex-direction: column;
+  }
+}
+@media (max-width: 460px) {
+  .home-left h1 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 400px) {
+  .btn-2 {
+    margin-top: 20px;
+  }
+  .home-all {
+    text-align: center;
+  }
+  .home-btns {
+    gap: 30px;
+    align-items: center;
+  }
+  .home-left h4 {
+    margin: auto;
+  }
+  .home-all {
+    padding-top: 80px;
+  }
+  .heroo {
+    background: linear-gradient(to top, #57b8ff 50%, #000000e0 50%);
+  }
+  .home-left p {
+    color: white;
+  }
+  .home-right img {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1273px) {
+  .imagess .right {
+    flex-wrap: wrap;
+  }
+}
